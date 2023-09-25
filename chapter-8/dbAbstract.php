@@ -1,11 +1,11 @@
 <?php
 
 abstract class dbAbstract{
-    private $db;
-    private $db_host;
-    private $db_name;
-    private $db_user;
-    private $db_pass;
+    protected $db;
+    protected $db_host;
+    protected $db_name;
+    protected $db_user;
+    protected $db_pass;
 
     public function __construct($db_host,$db_name,$db_user,$db_pass)
     {
@@ -16,11 +16,11 @@ abstract class dbAbstract{
     }
     
 
-    abstract public function connect();
+    abstract protected function connect();
 
-    abstract public function disconnect();
+    abstract protected function disconnect();
     
-    abstract public function fetchData($table, $modifier);
+    abstract protected function fetchData($table, $modifier);
 }
 
 
