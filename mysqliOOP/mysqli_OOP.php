@@ -24,7 +24,9 @@ class index
         // $this -> db -> insertSingleData("Oppo","192.168.0104","oppo","123",1);
         //$this -> db -> insertMultipleData($shops);
         //$this -> db -> updateShop(5,"Orange");
-        $this -> db -> deleteShop(5);
+        //$this -> db -> deleteShop(5);
+        //$this -> db -> getJoinData(1);
+        $this->db-> fetchAllShops(1);
     }
 
 }
