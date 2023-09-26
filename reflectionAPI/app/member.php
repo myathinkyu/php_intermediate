@@ -11,10 +11,16 @@ class member
         "school" => "Yangon"
     ];
 
-    public function getDetailInfo($args){
-        return $this->detailInfo;
-        //echo "I am being invoked with " . $args[0];
-        //return $args;
+    //method
+    // public function getDetailInfo($args){
+    //     //return $this->detailInfo;
+    //     //echo "I am being invoked with " . $args[1];
+    //     return $args;
+    // }
+
+    //parameter
+    public function getDetailInfo(string $data="Mg Mg",$info){
+            return $this->detailInfo;
     }
 
     public function setAuth($bol){

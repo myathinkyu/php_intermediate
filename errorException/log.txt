@@ -1,0 +1,20 @@
+Error Message => 
+File Not Found! reported by my custom exception class
+Error Number => 
+1000
+Error Timestamp
+2023-09-26 09:09:41
+
+Error Message => 
+File Not Found! reported by my custom exception class
+Error Number => 
+1000
+Error Timestamp
+2023-09-26 09:09:08
+
+Error Message => 
+File Not Found! reported by my custom exception class
+Error Number => 
+1000
+Error Timestamp
+2023-09-26 09:09:09
